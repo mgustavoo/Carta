@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Carta - Projeto GitHub</title>
+    <style>
+        body {
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px;
+            font-family: 'Georgia', serif;
+        }
+        .folha {
+            background-color: white;
+            width: 100%;
+            max-width: 800px;
+            min-height: 1000px;
+            padding: 60px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-sizing: border-box;
+            position: relative;
+        }
+        .cabecalho {
+            text-align: right;
+            margin-bottom: 50px;
+            color: #444;
+        }
+        .destinatario {
+            margin-bottom: 40px;
+        }
+        .texto-carta {
+            line-height: 1.8;
+            text-align: justify;
+            text-indent: 50px; /* Recuo de parágrafo */
+            color: #222;
+        }
+        .assinatura {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .linha-assinatura {
+            border-top: 1px solid #000;
+            width: 250px;
+            margin: 10px auto;
+        }
+        footer {
+            margin-top: 100px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #888;
+            font-family: Arial, sans-serif;
+        }
+        @media (max-width: 600px) {
+            .folha { padding: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="folha">
+    <div class="cabecalho">
+        Gaspar, SC - 10 de Março de 2026
+    </div>
+
+    <div class="destinatario">
+        Prezado(a) [Nome do Destinatário],<br>
+        [Cargo ou Empresa]
+    </div>
+
+    <div class="texto-carta">
+        <p>
+            Escrevo esta carta como parte do meu projeto de Análise e Desenvolvimento de Sistemas na UNIVALI. O objetivo deste trabalho é demonstrar a integração de tecnologias web básicas, como HTML e CSS, com ferramentas de versionamento de código, especificamente o GitHub.
+        </p>
+        <p>
+            A estrutura desta página foi pensada para simular uma folha de papel A4 física, utilizando sombras e fontes serifadas para conferir um aspecto mais formal e profissional ao documento digital.
+        </p>
+        <p>
+            Agradeço pela atenção e sigo à disposição para futuras atualizações neste repositório.
+        </p>
+    </div>
+
+    <div class="assinatura">
+
+        <div class="linha-assinatura"></div>
+        <strong>Matheus Gustavo de Lima Castro</strong><br>
+        Estudante de ADS
+    </div>
+
+    <footer>
+        Projeto hospedado via GitHub Pages<br>
+        UNIVALI - 2026
+    </footer>
+</div>
+
+</body>
+</html>
